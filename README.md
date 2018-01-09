@@ -33,11 +33,11 @@ new wabQR(document.getElementById("qr"), "http://jindo.dev.naver.com/collie");
 <div id="qr"></div>
 <script type="text/javascript">
 new wabQR(document.getElementById("qr"), {
-	text: "http://jindo.dev.naver.com/collie",
-	width: 128,
-	height: 128,
-	colorDark : "#000000",
-	colorLight : "#ffffff",
+  text: "http://jindo.dev.naver.com/collie",
+  width: 128,
+  height: 128,
+  colorDark : "#000000",
+  colorLight : "#ffffff",
   correctLevel : wabQR.CorrectLevel.H,
   render: 'svg',  // 不设置的话默认根据浏览器的兼容情况选择最优
   logoSrc: 'logo.jpg',
@@ -52,12 +52,4 @@ qrcode.makeCode("http://naver.com"); // make another code.
 ```
 
 ### 效果展示
-每行个数自适应，例如`tagsAlign('fromList')`
-![截图展示](img/example_1.png)
-
-固定每行最多展示个数，例如`tagsAlign('studyList', 4); tagsAlign('caseList', 3)`
-![截图展示](img/example_2.png)
-
-### 温馨提示
-如果是用前端MV*框架，请在DOM元素已经渲染之后执行该函数。
-函数源码已放出，需要的话可以根据自身需求定制
+![截图展示](exmple.png)
